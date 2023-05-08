@@ -65,6 +65,7 @@ export default function Habits() {
 					{habits &&
 						habits.map((habit) => (
 							<Habit
+								key={habit.id}
 								id={habit.id}
 								habit={habit.habit}
 								days={habit.days}
