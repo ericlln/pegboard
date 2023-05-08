@@ -16,6 +16,8 @@ export default function App({ Component, pageProps }) {
 					name="description"
 					content="A minimalist productivity app with a Pomdoro timer, to-do list, and habit tracker."
 				/>
+				<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+				<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 			</Head>
 			<SessionContextProvider supabaseClient={supabase} initialSession={pageProps.initialSession}>
 				<RecoilRoot>
