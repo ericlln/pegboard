@@ -27,8 +27,8 @@ export default function Habit({ id, habit, days, startdate, getHabits }) {
 					}}
 					className="text-left col-start-1 box-content bg-ash-gray mb-4 rounded-lg px-3 py-1.5 hover:text-off-white hover:bg-viridian transition hover:-translate-y-1 ease-in duration-150"
 				>
-					<h1 className="font-medium">{habit}</h1>
-					<h1>
+					<h1 className="	text-decoration-line: underline">{habit}</h1>
+					<h1 className='font-medium'>
 						{typeof getDaysSinceStart() === 'string' ? getDaysSinceStart() : `Days Since Start: ${getDaysSinceStart()}`}
 					</h1>
 				</button>

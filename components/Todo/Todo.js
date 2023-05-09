@@ -12,7 +12,7 @@ export default function Todo() {
 	const [loading, setLoading] = useState(false);
 	const [todos, setTodos] = useState(null);
 	const [modal, setModal] = useState(false);
-	const [sort, setSort] = useState(null);
+	const [sort, setSort] = useState('Deadline');
 
 	useEffect(() => {
 		if (user) {
@@ -61,7 +61,7 @@ export default function Todo() {
 				<div className="grid grid-cols-1 gap-1 grid-flow-row mb-4 justify-end">
 					<button
 						onClick={() => setModal(true)}
-						className="col-start-1 text-off-white border-gunmetal bg-viridian shadow-lg shadow-viridian/50 hover:bg-ash-gray font-medium rounded-lg text-sm text-center mr-2 mb-2"
+						className="col-start-1 text-off-white border-gunmetal bg-viridian shadow-lg shadow-viridian/50 hover:bg-ash-gray font-medium rounded-lg text-sm text-center mr-2 mb-2 ease-in duration-150"
 					>
 						Add Task
 					</button>

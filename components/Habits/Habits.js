@@ -56,7 +56,7 @@ export default function Habits() {
 				<div className="grid grid-cols-1 gap-1 grid-flow-row mb-4 justify-end">
 					<button
 						onClick={() => setModal(true)}
-						className="p-2 text-off-white border-gunmetal bg-viridian shadow-lg shadow-viridian/50 hover:bg-ash-gray font-medium rounded-lg text-sm text-center mr-2 mb-2"
+						className="p-2 text-off-white border-gunmetal bg-viridian shadow-lg shadow-viridian/50 hover:bg-ash-gray font-medium rounded-lg text-sm text-center mr-2 mb-2 ease-in duration-150"
 					>
 						Add Habit
 					</button>

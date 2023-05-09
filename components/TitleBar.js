@@ -18,7 +18,7 @@ export default function TitleBar({ title }) {
 			<div className="fixed right-0 mr-6">
 				<button
 					type="button"
-					className="text-off-white bg-gunmetal hover:bg-viridian focus:ring-2 focus:outline-none focus:ring-viridian font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+					className="text-off-white bg-gunmetal hover:bg-viridian focus:ring-2 focus:outline-none focus:ring-viridian font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ease-in duration-150"
 					onClick={clickHandler}
 				>
 					<svg
